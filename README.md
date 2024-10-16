@@ -1,6 +1,6 @@
 # Henry Hai's Barbershop
 
-Welcome to Henry Hai's Barbershop, where style meets precision. Since 2013, we've been providing top-notch barbering services, ensuring that every client leaves looking and feeling their best.
+Welcome to Henry Hai's Barbershop, where style meets precision. Since 2013, I've been providing luxury barbering services, ensuring that every client leaves looking and feeling their best.
 
 ## Table of Contents
 - [Features](#features)
@@ -34,9 +34,9 @@ For detailed pricing and service descriptions, please visit the [Services](#serv
 My gallery features a collection of styles and cuts created at my barbershop. Check out my photo gallery to see the quality of work I provide.
 
 ## Locations
-We operate in two locations:
+I operate in two locations:
 - **Fullerton:** Homestead Apartments, Fullerton, CA 92831
-- **Milpitas:** Kennedy Dr, Milpitas, CA 95035
+- **Milpitas:** Kennedy Dr, Milpitas, CA 95035 (Seasonal/Holidays)
 
 Please visit my [Locations](#locations) section for hours and seasonal details.
 
