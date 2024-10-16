@@ -50,7 +50,7 @@ Please read and accept my booking policies before scheduling an appointment:
 To book an appointment, navigate to the "Book An Appointment" section on my website. Fill out the form with your details, and we’ll confirm your booking via text. We look forward to serving you!
 
 ## Contact
-Follow us on [Instagram](https://www.instagram.com/henryhai_) or connect on [LinkedIn](https://www.linkedin.com/notifications/?filter=all) to stay updated.
+Follow me on [Instagram](https://www.instagram.com/henryhai_) or connect on [LinkedIn](https://www.linkedin.com/notifications/?filter=all) to stay updated.
 
 ## License
 This project is licensed under the MIT License.
