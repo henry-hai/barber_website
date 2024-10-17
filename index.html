@@ -72,8 +72,8 @@
             <div class="md:ml-8">
                 <h2 class="text-3xl font-bold mb-4">About</h2>
                 <p class="text-gray-700">Hey! My Name is Henry.<br> 
-                    I started this one-man barbershop in 2013<br> 
-                    & have been specializing in luxury haricuts ever since.</p>
+                    I started this barbershop in 2013<br> 
+                    & have been specializing in private luxury haricuts ever since.</p>
             </div>
         </div>
     </section>
@@ -152,26 +152,51 @@
     <section id="gallery" class="py-16 bg-white">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-8">Gallery</h2>
-            <div class="relative flex items-center">
-                <button class="absolute left-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryLeft()">&larr;</button>
+            <!-- (4:5 Aspect Ratio Photos) -->
+            <div class="relative flex items-center mb-8">
+                <button class="absolute left-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryLeft1()">&larr;</button>
                 <div id="photo-container" class="flex overflow-x-auto space-x-4 px-12 scroll-smooth">
-                    <img src="img/1_Murthi_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/2_Murthi_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/3_Jason_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/4_KSG_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/5_KSG_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/6_Alex_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/7_Alex_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/8_Adrian_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/9_Adrian_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/10_Adrian_3.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/11_Elijah_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/12_Elijah_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/13_Jason_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/14_Chester_1.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
-                    <img src="img/15_Chester_2.JPG" class="w-64 h-64 object-cover rounded-lg shadow-lg">
+
+                    <img src="img/1_Murthi_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/9_Adrian_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/3_Jason_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/6_Alex_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/4_KSG_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+
+                    <img src="img/5_KSG_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/7_Alex_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/8_Adrian_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/10_Adrian_3.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/2_Murthi_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/11_Elijah_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/12_Elijah_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/13_Jason_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/14_Chester_1.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
+                    <img src="img/15_Chester_2.JPG" class="w-56 h-[70px] object-cover rounded-lg shadow-lg">
                 </div>
-                <button class="absolute right-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryRight()">&rarr;</button>
+                <button class="absolute right-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryRight1()">&rarr;</button>
+            </div>
+            <!-- (1:1 Aspect Ratio Photos)-->
+            <div class="relative flex items-center">
+                <button class="absolute left-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryLeft2()">&larr;</button>
+                <div id="photo-container-2" class="flex overflow-x-auto space-x-4 px-12 scroll-smooth">
+                    <img src="img/19_Cam_1.jpg" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/20_Cam_2.jpg" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/25_Andrew_1.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/26_Hoang_2.jpg" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/27_JD_1.jpg" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/28_JD_2.jpg" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/29_Dev_1.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/30_Dev_2.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/21_RR_1.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/22_RR_2.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/23_RR_3.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/24_RR_4.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg"> 
+                    <img src="img/16_Ben_1.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/17_Ben_2.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                    <img src="img/18_Ben_3.JPG" class="w-56 h-56 object-cover rounded-lg shadow-lg">
+                </div>
+                <button class="absolute right-0 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="scrollGalleryRight2()">&rarr;</button>
             </div>
         </div>
     </section>
@@ -302,21 +327,37 @@
 
     <!-- JavaScript for Gallery Scrolling -->
     <script>
-        const photoContainer = document.getElementById('photo-container');
-    
-        function scrollGalleryLeft() {
-            if (photoContainer) {
-                photoContainer.scrollBy({ left: -200, behavior: 'smooth' });
+        // First Gallery Scrolling
+        const photoContainer1 = document.getElementById('photo-container');
+        
+        function scrollGalleryLeft1() {
+            if (photoContainer1) {
+                photoContainer1.scrollBy({ left: -200, behavior: 'smooth' });
             }
         }
 
-        function scrollGalleryRight() {
-            if (photoContainer) {
-                photoContainer.scrollBy({ left: 200, behavior: 'smooth' });
+        function scrollGalleryRight1() {
+            if (photoContainer1) {
+                photoContainer1.scrollBy({ left: 200, behavior: 'smooth' });
             }
         }
 
+        // Second Gallery Scrolling
+        const photoContainer2 = document.getElementById('photo-container-2');
+
+        function scrollGalleryLeft2() {
+            if (photoContainer2) {
+                photoContainer2.scrollBy({ left: -200, behavior: 'smooth' });
+            }
+        }
+
+        function scrollGalleryRight2() {
+            if (photoContainer2) {
+                photoContainer2.scrollBy({ left: 200, behavior: 'smooth' });
+            }
+        }
     </script>
+
     
     <!-- JS Function for Form Submission -->
     <script>
