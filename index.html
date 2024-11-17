@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Email JS Initializtion Script -->
@@ -40,9 +40,12 @@
                 <ul class="flex space-x-8">
                     <li><a href="#about" class="hover:text-black">About</a></li>
                     <li><a href="#services" class="hover:text-black">Services</a></li>
-                    <li><a href="#locations" class="hover:text-black">Locations</a></li>
                     <li><a href="#gallery" class="hover:text-black">Gallery</a></li>
+                    <li><a href="#locations" class="hover:text-black">Locations</a></li>
+                    <!-- Old Button 
                     <li><a href="#appointment" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 whitespace-nowrap">Book An Appointment</a></li>
+                    -->
+                    <li><a href="#appointment" class="text-white px-4 py-2 rounded-md whitespace-nowrap" style="background-color: #00b9ff; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#009ed9'" onmouseout="this.style.backgroundColor='#00b9ff'">Book An Appointment</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,9 +54,14 @@
         <div id="mobileMenu" class="hidden bg-white text-center py-4 shadow-md md:hidden">
             <a href="#about" class="block py-2 text-gray-700 hover:bg-gray-200">About</a>
             <a href="#services" class="block py-2 text-gray-700 hover:bg-gray-200">Services</a>
-            <a href="#locations" class="block py-2 text-gray-700 hover:bg-gray-200">Locations</a>
             <a href="#gallery" class="block py-2 text-gray-700 hover:bg-gray-200">Gallery</a>
+            <a href="#locations" class="block py-2 text-gray-700 hover:bg-gray-200">Locations</a>
+            <!-- OG BUTTON
             <a href="#appointment" class="block py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 mx-4">Book An Appointment</a>
+            -->
+            <a href="#appointment" class="block py-2 text-white rounded-md mx-4" style="background-color: #00b9ff; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#009ed9'" onmouseout="this.style.backgroundColor='#00b9ff'">Book An Appointment</a>
+
+            
         </div>
     </header>
 
@@ -71,7 +79,7 @@
             <!-- <img src="img/smallLogo" class="w-full md:w-1/2 rounded-lg shadow-lg" alt="About Image"> -->
             <div class="md:ml-8">
                 <h2 class="text-3xl font-bold mb-4">About</h2>
-                <p class="text-gray-700">Hey! My Name is Henry.<br> 
+                <p class="text-gray-700">Hello! My Name is Henry.<br> 
                     I started this barbershop in 2013<br> 
                     & have been specializing in private luxury haircuts ever since.</p>
             </div>
@@ -304,7 +312,10 @@
                             <span class="ml-2 text-gray-600">I accept the booking policies</span>
                         </label>
                     </div>
+                    <!-- OG BUTTON 
                     <button type="button" onclick="submitAppointmentForm()" class="bg-blue-500 text-white px-4 py-2 rounded-md">Submit</button>
+                    -->
+                    <button type="button" onclick="submitAppointmentForm()" class="text-white px-4 py-2 rounded-md" style="background-color: #00b9ff; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#009ed9'" onmouseout="this.style.backgroundColor='#00b9ff'">Submit</button>
                 </form>
             </div>
         </div>
