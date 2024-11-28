@@ -384,46 +384,58 @@
         function submitAppointmentForm(event) {
             // Prevent default form submission
             event.preventDefault();
-    
+
             // Get form fields
             var name = document.getElementById('name').value.trim();
             var phone = document.getElementById('phone').value.trim();
             var date1 = document.getElementById('date1').value.trim();
             var availability1 = document.getElementById('availability1').value.trim();
+            var date2 = document.getElementById('date2').value.trim();
+            var availability2 = document.getElementById('availability2').value.trim();
+            var date3 = document.getElementById('date3').value.trim();
+            var availability3 = document.getElementById('availability3').value.trim();
             var description = document.getElementById('description').value.trim();
             var policiesAccepted = document.querySelector('input[type="checkbox"]').checked;
-    
+
             // Track missing fields
             var missingFields = [];
-    
+
             if (!name) missingFields.push("Name");
             if (!phone) missingFields.push("Phone Number");
             if (!date1) missingFields.push("Preferred Date 1");
             if (!availability1) missingFields.push("Availability");
             if (!description) missingFields.push("Description of Haircut / Other Comments");
             if (!policiesAccepted) missingFields.push("Accepting the booking policies");
-    
+
             // Show error if any fields are missing
             if (missingFields.length > 0) {
                 alert("Please fill out the following required fields:\n- " + missingFields.join("\n- "));
                 return; // Prevent form submission
             }
-    
-            // If all fields are valid, proceed with submission
-            emailjs.send('service_2k9xp7s', 'contact_form', {
+
+            // Prepare the template parameters
+            var templateParams = {
                 name: name,
                 phone: phone,
                 date1: date1,
                 availability1: availability1,
+                date2: date2 || "N/A",
+                availability2: availability2 || "N/A",
+                date3: date3 || "N/A",
+                availability3: availability3 || "N/A",
                 description: description
-            }).then(function(response) {
-                alert('Thank you, ' + name + '! Your appointment request has been received.');
-                document.getElementById('appointment-form').reset(); // Clear the form
-            }, function(error) {
-                alert('Oops! Something went wrong. Please try again.');
-            });
+            };
+
+            // Send the email
+            emailjs.send('service_2k9xp7s', 'contact_form', templateParams)
+                .then(function(response) {
+                    alert('Thank you, ' + name + '! Your appointment request has been received.');
+                    document.getElementById('appointment-form').reset(); // Clear the form
+                }, function(error) {
+                    alert('Oops! Something went wrong. Please try again.');
+                });
         }
-    
+
         // Attach the event listener
         document.getElementById('appointment-form').addEventListener('submit', submitAppointmentForm);
     </script>    
