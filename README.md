@@ -35,8 +35,8 @@ My gallery features a collection of various styles & haircuts created at my barb
 
 ## Locations
 I operate in two locations:
-- **Fullerton:** Homestead Apartments, Fullerton, CA 92831
-- **Milpitas:** Kennedy Dr, Milpitas, CA 95035 (Seasonal/Holidays)
+- **Irvine:** Verano Place, Irvine, CA 92617 - SOCAL LOCATION
+- **Milpitas:** Kennedy Dr, Milpitas, CA 95035 - BAY AREA LOCATION
 
 Please visit my [Locations](#locations) section for hours and seasonal details.
 
