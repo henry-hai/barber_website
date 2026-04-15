@@ -53,4 +53,7 @@ To book an appointment, navigate to the "Book An Appointment" section on my webs
 Follow me on [Instagram](https://www.instagram.com/henryhai_) or connect on [LinkedIn](https://www.linkedin.com/notifications/?filter=all) to stay updated.
 
 ## License
-This project is licensed under the MIT License.
+Copyright (c) 2024 Henry Hai. All rights reserved.
+
+This project is proprietary. No permission is granted to use, copy, modify,
+or distribute any part of this codebase without prior written permission.
